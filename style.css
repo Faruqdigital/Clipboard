@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -24,7 +26,7 @@ img {
 }
 
 body {
-    font-family: 'Bai Jamjuree', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: var(---background-color);
 }
 
@@ -91,8 +93,16 @@ nav ul li a {
     font-size: 2rem;
     line-height: 24px;
     letter-spacing: -0.16px;
-    margin-right: 3rem;
-    margin-top: 1.4rem;
+    border: 1px solid orange;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+}
+
+.nav-btn a:hover{
+    background-color:chocolate;
+    color: white;
+    padding: 1.6rem 3rem;
+    transition: all 0.4s ease-in-out;
 }
 
 
