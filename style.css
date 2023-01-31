@@ -10,6 +10,13 @@
     ---primary-color2: hsl(233, 100%, 69%);
     ---secondary-color1: hsl(210, 10%, 33%);
     ---secondary-color: hsl(201, 11%, 66%);
+    ---background-color: #FFFFFB;
+}
+
+.container{
+    max-width: 95%;
+    margin: 0 auto;
+    /* background-color: rgb(191, 171, 199); */
 }
 
 img {
@@ -18,6 +25,7 @@ img {
 
 body {
     font-family: 'Bai Jamjuree', sans-serif;
+    background-color: var(---background-color);
 }
 
 h1 {
@@ -39,6 +47,63 @@ p {
     font-size: 1.8rem;
     color: var(---secondary-color)
 }
+
+
+/* header */
+
+.nav-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+}
+
+.logo img{
+    max-width: 48%;
+}
+
+.logo h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* color: #FFFFFF; */
+    opacity: 0.8;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-top: 2rem;
+}
+
+nav ul li a {
+    font-size: 16px;
+    line-height: 33px;
+    /* color: #FFFFFF; */
+    text-decoration: none;
+}
+
+.nav-btn {
+    margin-top: 1rem;
+}
+
+.nav-btn a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    /* color: #FFFFFF; */
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid;
+    border-radius: 25px;
+}
+
 
 /* hero section */
 
